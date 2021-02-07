@@ -1,0 +1,10 @@
+const names = ['Anton', 'Zevs', 'Toma', 'Vovan', 'Natasha', 'Dodon']
+
+let i = 0
+while (i < names.length) {
+  display.log(names[i])
+if (names[i] === 'Natasha') {
+ break
+}
+ i += 1
+}  
